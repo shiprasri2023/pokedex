@@ -1,0 +1,63 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+// sass variables 
+$blue-grey-darken-4: #263238;
+$blue-grey-lighten-5: #eceff1;
+$blue-grey-lighten-2: #90a4ae;
+$blue-grey-lighten-4: #cfd8dc;
+$blue-grey-lighten-3: #B0BEC5;
+$white: #ffffff;
+
+/* width */
+.container_bg {
+  background: $blue-grey-lighten-5;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $blue-grey-lighten-2;
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $blue-grey-lighten-4;
+  border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $blue-grey-lighten-4;
+}
+.width100 {
+  width: 100%;
+}
+.width120 {
+  width: 220px;
+}
+.borderHeader {
+  border-bottom: 4px solid $blue-grey-darken-4;
+}
+.borderFooter {
+  border-top: 4px solid $blue-grey-darken-4;
+}
+.borderContent {
+  border-top: 2px solid $blue-grey-darken-4;
+}
+.backButton {
+  border: 1px solid $blue-grey-darken-4;
+  background-color: $white;
+}
+.border_grey {
+  border: 1px solid $blue-grey-lighten-3;
+}
